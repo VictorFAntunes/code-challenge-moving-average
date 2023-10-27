@@ -28,23 +28,7 @@ Each element in the output iterator should represent the moving average of the l
 
 - **Important**: Should be implemented efficiently to handle large series
 
-### Requirements
 
-​
-
-- **Language**: Standard Library Scala.
-
-- **Input**:It should accept an iterator over numbers (`Iterator[Double]``) as its only argument.
-
-- **Output**: A new iterator (`Iterator[Option[Double]]`)
-
-- **Constraints**: If fewer than 5 numbers have been processed, the iterator should yield None.
-
-- **Important**: Should be implemented efficiently to handle large series
-
-​
-
-​
 
 ### Function Signature
 
